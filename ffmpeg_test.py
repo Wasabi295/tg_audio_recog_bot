@@ -18,12 +18,12 @@ FFMPEG_PATH = r"C:\ffmpeg\bin\ffmpeg.exe"
 FFPROBE_PATH = r"C:\ffmpeg\bin\ffprobe.exe"
 
 # Настройки ACRCloud (ЗАМЕНИТЕ НА СВОИ!)
-ACR_HOST = "https://identify-eu-west-1.acrcloud.com"
-ACCESS_KEY = "fb07d5200c9ea10d5897e449525767fe"
-ACCESS_SECRET = "jUSs8yLcqOF2tw79qCp1iloB8uPptJWi0ZzmRKft"
+ACR_HOST = ""
+ACCESS_KEY = ""
+ACCESS_SECRET = ""
 
 # Настройка Telegram бота (ЗАМЕНИТЕ НА СВОЙ ТОКЕН!)
-TELEGRAM_TOKEN = "7892537711:AAGweAfJrXDymHwDJPo-xj-Vp_8FsT1l1sg"
+TELEGRAM_TOKEN = ""
 
 # Инициализация аудио модуля
 AudioSegment.ffmpeg = FFMPEG_PATH
