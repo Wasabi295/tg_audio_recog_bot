@@ -12,6 +12,9 @@ import asyncio
 import json
 from aiohttp import FormData
 
+# THAT'S THE VERSION FOR ACRCloud but i don't know if it's working properly, also in this version u will never get multiple results, cause i didn't implement it, it's just an example of how u can use ACRCloud API, also here is a bug
+# if u try to put different MAX_DURATION u will get different results, in the version for AUDd i made a segmentation of the audio file so u can get multiple results.
+
 # Настройка логирования
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
